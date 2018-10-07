@@ -1,0 +1,20 @@
+.footer {
+  background-color: #444444;
+  color: #e6f0e9;
+  overflow: hidden;
+  padding: 32px 60px 30px 50px;
+}
+
+@media (max-width: 600px) {
+  .copy {
+    float: none;
+    text-align: center;
+  }
+
+  .social {
+    float: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+}

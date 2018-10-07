@@ -1,0 +1,44 @@
+.contact-form-wrapper {
+  position: relative;
+  overflow: hidden;
+
+  @media (max-width: 750px) {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+.contact-form {
+  float: left;
+  width: 422px;
+
+  @media (max-width: 750px) {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.form-input {
+  @extend %form-element;
+  margin-bottom: 16px;
+}
+
+.form-textarea {
+  @extend %form-element;
+  height: 230px;
+  resize: none;
+  margin-bottom: 13px;
+}
+
+.form-btn {
+  border-radius: 4px;
+  background-color: #95a5a6;
+  color: white;
+  font: bold 9px "Lato", sans-serif;
+  padding: 5px 27px;
+  border: 1px solid #95a5a6;
+
+  @media (max-width: 600px) {
+    padding: 10px 35px;
+  }
+}

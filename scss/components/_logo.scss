@@ -1,0 +1,10 @@
+.logo {
+  width: 194px;
+  height: 40px;
+  float: left;
+
+  @media (max-width: 600px) {
+    float: none;
+    margin: auto;
+  }
+}

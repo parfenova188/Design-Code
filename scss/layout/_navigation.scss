@@ -1,0 +1,33 @@
+.site-nav {
+  float: right;
+  margin-top: 16px;
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    float: left;
+    margin-left: 19px;
+
+    @media (max-width: 600px) {
+      margin: 0;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: currentColor;
+    text-transform: capitalize;
+    font-size: 14px;
+
+    &:hover {
+      color: #000000;
+    }
+  }
+
+  @media (max-width: 600px) {
+    float: none;
+    display: flex;
+    justify-content: space-around;
+  }
+}

@@ -1,0 +1,41 @@
+%main {
+  background-color: #ecf0f1;
+}
+
+%header {
+  background-color: #27ae60;
+  overflow: hidden;
+  color: #e6f0e9;
+  text-align: center;
+}
+
+%header-h1 {
+  font-weight: normal;
+  // margin: 0;
+}
+
+
+%am-s {
+  font-weight: 400;
+  size: 25px;
+  text-align: center;
+  // margin: 0;
+}
+
+
+%btn-green {
+  background-color: #2ecc71;
+  display: inline-block;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+%form-element {
+  width: 100%;
+  background-color: #ecf0f1;
+  font: lighter 16px "Lato", sans-serif;
+  padding: 12px;
+  border: 1px solid #aaa;
+}

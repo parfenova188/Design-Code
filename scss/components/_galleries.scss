@@ -1,0 +1,145 @@
+.gallery {
+  overflow: hidden;
+  margin-left: -11px;
+  margin-right: -11px;
+  margin-bottom: 47px;
+
+  @media (max-width: 600px) {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+}
+
+.gallery-item {
+  float: left;
+  width: 50%;
+  padding: 11px;
+  position: relative;
+
+  &:hover .gallery-item-overlay {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  img {
+    vertical-align: top;
+    max-width: 100%;
+  }
+
+  .gallery-item-overlay {
+    background-color: rgba(149, 165, 166, 0.9);
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    bottom: 20px;
+    left: 20px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1s ease;
+  }
+
+  @media (max-width: 650px) {
+    float: none;
+    width: 100%;
+  }
+}
+
+.gallery-item-cnt {
+  position: relative;
+}
+
+.gallery-item-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #f9f9f9;
+
+  p {
+    margin: 0;
+    font-size: 10px;
+  }
+
+  h4 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+    padding-bottom: 13px;
+    margin-bottom: 13px;
+
+    &::after {
+      position: absolute;
+      content: "";
+      height: 1px;
+      background-color: #f9f9f9;
+      bottom: 0;
+      right: 18px;
+      left: 18px;
+    }
+  }
+}
+
+.round-img {
+  margin-left: 23px;
+  margin-right: 23px;
+  overflow: hidden;
+
+  @media (max-width: 450px) {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  @media (max-width: 650px) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.round-img-item {
+  float: left;
+  width: 25%;
+  margin-bottom: 70px;
+  padding: 12px;
+
+  img {
+    text-align: center;
+    max-width: 100%;
+  }
+
+  &:hover .round-img-item-overlay {
+    visibility: visible;
+  }
+
+  @media (max-width: 450px) {
+    margin-bottom: 0;
+    padding: 0;
+    width: 50%;
+  }
+
+  @media (max-width: 650px) {
+    padding: 5px;
+    margin-bottom: 30px;
+  }
+}
+
+.round-img-item-overlay {
+  position: absolute;
+  background-color: rgba(149, 165, 166, 0.8);
+  border: 8px solid;
+  border-radius: 50%;
+  border-color: rgba(39, 174, 97, 0.8);
+  top: 0px;
+  bottom: 3px;
+  left: 0px;
+  right: 0px;
+  visibility: hidden;
+  transition: opacity 1s ease;
+
+  background: rgba(166, 180, 181, 0.9);
+}
+
+.round-img-cnt {
+  position: relative;
+}

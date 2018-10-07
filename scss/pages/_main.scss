@@ -1,0 +1,89 @@
+.main__main {
+  @extend %main;
+  padding: 80px 60px 65px 60px;
+
+  @media (max-width: 600px) {
+    padding: 20px;
+  }
+}
+
+.header__main {
+  @extend %header;
+  padding: 20px 60px 80px 60px;
+
+  h1 {
+    @extend %header-h1;
+    font-size: 40px;
+    margin-bottom: 58px;
+  }
+}
+
+.header-top__main {
+  overflow: hidden;
+  margin-bottom: 117px;
+
+  @media (max-width: 600px) {
+    margin-bottom: 20px;
+  }
+}
+
+.am-s__main {
+  @extend %am-s;
+  // margin-bottom: 32px;
+}
+
+.ps-version {
+  text-align: center;
+  font-size: 12px;
+  margin: 0;
+  margin-bottom: 80px;
+}
+
+.work {
+  color: #7f8c8d;
+  font-weight: 400;
+  text-align: center;
+  font-size: 25px;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.worked-with {
+  color: #7f8c8d;
+  text-align: center;
+  font-size: 25px;
+  margin: 0;
+  font-weight: 400;
+  margin-bottom: 44px;
+
+  @media (max-width: 600px) {
+    margin-bottom: 30px;
+  }
+}
+
+.partners {
+  overflow: hidden;
+
+  @media (max-width: 600px) {
+    text-align: center;
+  }
+}
+
+.partners-item {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+
+  img {
+    vertical-align: top;
+
+    @media (max-width: 600px) {
+      margin-bottom: 30px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    float: none;
+    width: 100%;
+  }
+}

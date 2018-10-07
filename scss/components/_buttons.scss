@@ -1,0 +1,33 @@
+
+.btn-green-large {
+  @extend %btn-green;
+  padding: 14px 67px;
+}
+
+.btn-green-small {
+  @extend %btn-green;
+  padding: 7px 40px;
+  font-size: 10px;
+  @media (max-width: 650px) {
+    padding: 14px 50px;
+  }
+}
+
+.btn-white-wrapper {
+  text-align: center;
+  margin-bottom: 133px;
+
+  @media (max-width: 600px) {
+    margin-bottom: 70px;
+  }
+}
+
+.btn-white {
+  padding: 9px 81px;
+  display: inline-block;
+  color: #9099a3;
+  border-radius: 6px;
+  border: 2px solid #989a9a;
+  text-decoration: none;
+  font-size: 13px;
+}

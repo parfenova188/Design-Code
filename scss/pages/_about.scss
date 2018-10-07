@@ -1,0 +1,54 @@
+.main__about {
+
+  @extend %main;
+  padding: 88px 123px 65px 123px;
+
+  @media (max-width: 650px) {
+    padding: 20px;
+  }
+
+  @media (max-width: 850px) {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+}
+
+.polyline__about {
+  margin-bottom: 25px;
+}
+
+.am-s__about {
+  @extend %am-s;
+  margin-bottom: 32px;
+}
+
+.about-text {
+  font-size: 14px;
+  margin: 0;
+  margin-left: 34px;
+  margin-right: 34px;
+  font-weight: lighter;
+  color: #444;
+  text-align: justify;
+  margin-bottom: 60px;
+
+  @media (max-width: 450px) {
+    font-size: 16px;
+  }
+
+  @media (max-width: 650px) {
+    margin-bottom: 30px;
+  }
+}
+
+.about-h3 {
+  font-size: 25px;
+  color: #444;
+  margin: 0;
+  text-align: center;
+  margin-bottom: 30px;
+
+  @media (max-width: 650px) {
+    margin-bottom: 20px;
+  }
+}

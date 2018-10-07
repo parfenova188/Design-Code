@@ -1,0 +1,27 @@
+.social {
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  float: left;
+  margin-top: 0;
+
+  li {
+    float: left;
+  }
+
+  a {
+    color: currentColor;
+    font-size: 9px;
+    text-decoration: none;
+  }
+
+  .fab {
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+
+  i {
+    margin-left: 10px;
+  }
+}
